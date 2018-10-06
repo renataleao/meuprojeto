@@ -2,12 +2,12 @@
   <div class="item-flex">
     <div class="jumbotron">
       <p id="title"> L O G I N</p>
-      <input type="text" placeholder="User"[(ngModel)]="email">
-      <input type="password" placeholder="Password"[(ngModel)]="senha">
-      <button class="btn btn-primary">Login</button>
-      <button class="btn btn-primary">Cadastrar</button>
+      <input type="text" placeholder="Email"[(ngModel)]="newUser.email">
+      <input type="password" placeholder="Senha"[(ngModel)]="newUser.senha">
+      <button class="btn btn-primary btn-block" (click)="loginUser()">Entrar</button>
+      <button class="btn btn-primary" routerLink="../cadastro">Cadastre-se</button>
     </div>
-    <p>{{email}}</p>
+    
     
   </div>
 </div>

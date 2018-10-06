@@ -5,9 +5,8 @@
     height: 100%;
     align-items: center;
     justify-content: center;
-    background: url(coffe.jpg);
+    background-color: rgba(22, 1, 1, 0.973);
     
-
 }
 
 .item-flex {
@@ -17,7 +16,7 @@
 
 .jumbotron {
     width: 100%;
-    box-shadow: 0px 3px 12px 4px  rgb(221, 109, 34); 
+    box-shadow: 0px 3px 12px 4px rgb(221, 109, 34); 
 }
 
 .jumbotron > input {
@@ -40,11 +39,16 @@
     margin: 10px auto;
     display: block;
     text-align: center;
-    color: brown;
+    background-color: brown;
 
 }
 
 #title{
     text-align: center;
     color: brown;
+}
+
+.voltar{
+    text-align: center;
+    background-color: brown;
 }
